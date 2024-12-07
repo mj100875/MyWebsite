@@ -1,23 +1,28 @@
 body{
-	background: #7ce6c6;
-	font-family: 'Berkshire Swash',sans-serif;
+	background: #D1E8E2;
+	font-family: 'Playfair Display',sans-serif;
 }
 h2{
 	text-align: center;
 }
 nav{
 	float:right ;
+	background-color: #116466;
+	width: 90%;
+	text-align: center;
 }
 nav a{
 	text-decoration: none;
-	color: black;
+	color: white;
+	width: 100%;
 }
 nav ul li a:hover{
-	color: orangered;
+	color: #2C3531;
 }
 .container{
 	clear: both;
 	overflow:auto;
+	background-color: #116466;
 }
 .container ul li{
 	display: inline-block;
@@ -28,10 +33,10 @@ nav ul li a:hover{
 	color:orangered;
 }
 .logo img{
-	height: 100px;
-	width: 100px;
+	height: 80px;
+	width: 80px;
 	float: left;
-	border-radius: 100px;
+	border-radius: 80px;
 }
 .slider-holder{
 	width:800px;
@@ -80,11 +85,12 @@ nav ul li a:hover{
 
 }
 .box{
-	background: #87e0ae ;
+	background: #FFCB9A ;
 	border: 2px dotted darkseagreen;
 	border-radius: 10px;
 	padding: 15px;
 	margin: 15px;
+	color: #116466;
 }
 table,td,th{
 	border: 2px solid darkolivegreen;
